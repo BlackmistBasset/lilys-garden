@@ -13,6 +13,7 @@ import {
   Button,
 } from '@chakra-ui/react'
 import { Login } from './Login'
+import { Register } from './Register'
 
 export const ModalAuth = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -42,7 +43,7 @@ export const ModalAuth = () => {
                   <Login />
                 </TabPanel>
                 <TabPanel>
-                  <p>two!</p>
+                  <Register />
                 </TabPanel>
               </TabPanels>
             </Tabs>
